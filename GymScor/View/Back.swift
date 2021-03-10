@@ -24,6 +24,9 @@ struct Back: View {
            
         }
     }
+    func alertCustom()  {
+//        let alert = UIAlertController
+    }
 }
 
 struct Back_Previews: PreviewProvider {
