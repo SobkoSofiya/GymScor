@@ -12,3 +12,8 @@ import SwiftUI
 struct Model:Hashable {
     let name, password, email, height, weight:String
 }
+
+
+struct ModelLessons:Hashable {
+    let category, url:String
+}

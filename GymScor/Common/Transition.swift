@@ -17,7 +17,9 @@ struct Transition: View {
             }else if transition == 2 {
                 SignUp(transition: $transition)
             } else if transition == 3 {
-                Back(transition: $transition)
+                BottomMenu(transition: $transition)
+            } else if transition == 7 {
+                Transition()
             }
         } else{
         if transition == 1{
