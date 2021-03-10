@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C36B6D0625F8A7F00040C648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D0525F8A7F00040C648 /* AppDelegate.swift */; };
 		C36B6D0825F8A7F00040C648 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D0725F8A7F00040C648 /* SceneDelegate.swift */; };
-		C36B6D0A25F8A7F00040C648 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D0925F8A7F00040C648 /* ContentView.swift */; };
 		C36B6D0C25F8A7F10040C648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D0B25F8A7F10040C648 /* Assets.xcassets */; };
 		C36B6D0F25F8A7F10040C648 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D0E25F8A7F10040C648 /* Preview Assets.xcassets */; };
 		C36B6D1225F8A7F10040C648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D1025F8A7F10040C648 /* LaunchScreen.storyboard */; };
@@ -47,7 +46,6 @@
 		C36B6D0225F8A7F00040C648 /* GymScor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymScor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36B6D0525F8A7F00040C648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C36B6D0725F8A7F00040C648 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C36B6D0925F8A7F00040C648 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C36B6D0B25F8A7F10040C648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C36B6D0E25F8A7F10040C648 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C36B6D1125F8A7F10040C648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -118,20 +116,8 @@
 		C36B6D0425F8A7F00040C648 /* GymScor */ = {
 			isa = PBXGroup;
 			children = (
-				C36B6D0525F8A7F00040C648 /* AppDelegate.swift */,
-				C36B6D0725F8A7F00040C648 /* SceneDelegate.swift */,
-				C36B6D0925F8A7F00040C648 /* ContentView.swift */,
-				C36B6D6025F8AC970040C648 /* Transition.swift */,
-				C36B6D3D25F8AC3A0040C648 /* StepOne.swift */,
-				C36B6D4225F8AC460040C648 /* StepTwo.swift */,
-				C36B6D4725F8AC4D0040C648 /* StepThree.swift */,
-				C36B6D4C25F8AC600040C648 /* StepThreeWomen.swift */,
-				C36B6D5125F8AC670040C648 /* StepFour.swift */,
-				C36B6D5625F8AC6F0040C648 /* StepFive.swift */,
-				C36B6D5B25F8AC750040C648 /* SignIn.swift */,
-				C36B6D0B25F8A7F10040C648 /* Assets.xcassets */,
-				C36B6D1025F8A7F10040C648 /* LaunchScreen.storyboard */,
-				C36B6D1325F8A7F10040C648 /* Info.plist */,
+				C36B6D6F25F8BD300040C648 /* Common */,
+				C36B6D6825F8BD130040C648 /* Group */,
 				C36B6D0D25F8A7F10040C648 /* Preview Content */,
 			);
 			path = GymScor;
@@ -161,6 +147,33 @@
 				C36B6D2925F8A7F10040C648 /* Info.plist */,
 			);
 			path = GymScorUITests;
+			sourceTree = "<group>";
+		};
+		C36B6D6825F8BD130040C648 /* Group */ = {
+			isa = PBXGroup;
+			children = (
+				C36B6D3D25F8AC3A0040C648 /* StepOne.swift */,
+				C36B6D4225F8AC460040C648 /* StepTwo.swift */,
+				C36B6D4725F8AC4D0040C648 /* StepThree.swift */,
+				C36B6D4C25F8AC600040C648 /* StepThreeWomen.swift */,
+				C36B6D5125F8AC670040C648 /* StepFour.swift */,
+				C36B6D5625F8AC6F0040C648 /* StepFive.swift */,
+				C36B6D5B25F8AC750040C648 /* SignIn.swift */,
+			);
+			path = Group;
+			sourceTree = "<group>";
+		};
+		C36B6D6F25F8BD300040C648 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C36B6D0525F8A7F00040C648 /* AppDelegate.swift */,
+				C36B6D0725F8A7F00040C648 /* SceneDelegate.swift */,
+				C36B6D6025F8AC970040C648 /* Transition.swift */,
+				C36B6D0B25F8A7F10040C648 /* Assets.xcassets */,
+				C36B6D1025F8A7F10040C648 /* LaunchScreen.storyboard */,
+				C36B6D1325F8A7F10040C648 /* Info.plist */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +317,6 @@
 				C36B6D0825F8A7F00040C648 /* SceneDelegate.swift in Sources */,
 				C36B6D5C25F8AC750040C648 /* SignIn.swift in Sources */,
 				C36B6D3E25F8AC3A0040C648 /* StepOne.swift in Sources */,
-				C36B6D0A25F8A7F00040C648 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,7 +487,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GymScor/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = GymScor/Info.plist;
+				INFOPLIST_FILE = GymScor/Common/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,7 +507,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GymScor/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = GymScor/Info.plist;
+				INFOPLIST_FILE = GymScor/Common/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
