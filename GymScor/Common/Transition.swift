@@ -14,6 +14,10 @@ struct Transition: View {
         if show{
             if transition == 1{
                 SignIn(transition: $transition)
+            }else if transition == 2 {
+                SignUp(transition: $transition)
+            } else if transition == 3 {
+                Back(transition: $transition)
             }
         } else{
         if transition == 1{
@@ -31,7 +35,11 @@ struct Transition: View {
         else if transition == 6 {
             StepFive(transition: $transition)
         }else if transition == 7 {
-            SignIn(transition: $transition)
+            Transition()
+        }else if transition == 8 {
+            SignUp(transition: $transition)
+        }else if transition == 9 {
+            Back(transition: $transition)
         }
         }
     }

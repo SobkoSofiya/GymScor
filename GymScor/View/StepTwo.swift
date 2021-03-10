@@ -53,9 +53,9 @@ struct StepTwo: View {
                     }
                 }, label: {
                     ZStack{
-                        RoundedRectangle(cornerRadius: 39).strokeBorder(Color.black ).frame(width: 284, height: 77, alignment: .center).foregroundColor(.clear).background(RoundedRectangle(cornerRadius: 39).foregroundColor(color == 2 || color == 1 ? Color("be") : .white))
+                        RoundedRectangle(cornerRadius: 39).strokeBorder(Color.black ).frame(width: 284, height: 77, alignment: .center).foregroundColor(.clear).background(RoundedRectangle(cornerRadius: 39).foregroundColor(color == 3 ? Color("be") : .white))
                        
-                        Text("Next").foregroundColor( color == 1 || color == 2 ? .white : Color("te")).font(.custom("ND Astroneer", size: 24)).padding(19)
+                        Text("Next").foregroundColor( color == 3 ? .white : Color("te")).font(.custom("ND Astroneer", size: 24)).padding(19)
                         
                     }
                 }).padding(.top, 150)

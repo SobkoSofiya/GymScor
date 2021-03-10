@@ -11,6 +11,10 @@ struct SignIn: View {
     @State var name = ""
     @State var password = ""
     @Binding var transition:Int
+    @State var errorAlert = false
+    @State var message = ""
+    @StateObject var model = ViewModel()
+    @State var show = UserDefaults.standard.bool(forKey: "show")
     var body: some View {
         ZStack{
             Color("for")
@@ -38,14 +42,34 @@ struct SignIn: View {
                         }
                     }.frame(width: 312, height: 50, alignment: .center)
                     }
-                    Button(action: {}, label: {
+                    Button(action: {
+                        if name != "" && password != "" {
+                            model.signIn(password: password, name: name){ token, error in
+                                if token != "" || error == "Success"{
+                                    transition = 3
+                                    UserDefaults.standard.set(name, forKey: "name")
+                                
+                                }else{
+                                    errorAlert.toggle()
+                                    message = error
+                                }
+                        }
+                        }else{
+                            errorAlert.toggle()
+                            message = "Enter all fields"
+                        }
+                    }, label: {
                         ZStack{
                             RoundedRectangle(cornerRadius: 25.0)
                                 .frame(width: 312, height: 50, alignment: .center).foregroundColor(.white)
                             Text("Sign In").foregroundColor(Color("te")).font(.custom("ND Astroneer", size: 24))
                         }
-                    }).padding(.top,40)
-                    Button(action: {}, label: {
+                    }).padding(.top,40).alert(isPresented: $errorAlert, content: {
+                        Alert(title: Text("Error"), message: Text("\(message)"), dismissButton: .default(Text("Ok")))
+                    })
+                    Button(action: {
+                        transition = 2
+                    }, label: {
                         VStack(spacing:0){
                            
                             Text("Sign Up").foregroundColor(.white).font(.custom("ND Astroneer", size: 24))
