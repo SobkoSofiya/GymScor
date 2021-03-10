@@ -18,6 +18,7 @@ struct Profile: View {
     @State var height = ""
     @State var heightUserDefaults = UserDefaults.standard.string(forKey: "height")
     @State var weightUserDefaults = UserDefaults.standard.string(forKey: "weight")
+    
     var body: some View {
         ZStack{
             Rectangle()
@@ -32,7 +33,7 @@ struct Profile: View {
                         
                     }
                     VStack(spacing:5){
-                        Text("\(model.model.first?.name ?? "")").foregroundColor(.white).font(.custom("ND Astroneer", size: 24))
+                        Text("\(name!)").foregroundColor(.white).font(.custom("ND Astroneer", size: 24))
                         Text("Male").foregroundColor(.white).font(.custom("ND Astroneer", size: 16))
                         
                     }
