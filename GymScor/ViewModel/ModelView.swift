@@ -36,8 +36,9 @@ class ViewModel: ObservableObject {
             case .success(let value):
                 let json = JSON(value)
                 let token = json["notice"]["token"].stringValue
+                let error = json["notice"]["answer"].stringValue
                 UserDefaults.standard.set(token, forKey: "token")
-             con!(token, "Success")
+             con!(token, error)
                 print("JSON: \(json)")
             case .failure(let error):
                 con!("", error.localizedDescription)

@@ -126,7 +126,7 @@ struct CustomTextFieldNameSignUp:View {
             if nameSignUp.isEmpty{
                 placeholder.foregroundColor(Color("gr")).font(.custom("ND Astroneer", size: 24))
             }
-            TextField("", text: $nameSignUp, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center)
+            TextField("", text: $nameSignUp, onEditingChanged: edit, onCommit: commit).accessibilityIdentifier("name1").frame(width: 250, height: 50, alignment: .center).accessibilityIdentifier("name1")
         }
     }
 }
@@ -140,7 +140,7 @@ struct CustomTextFieldPasswordSignUp:View {
             if passwordSignUp.isEmpty{
                 placeholder.foregroundColor(Color("gr")).font(.custom("ND Astroneer", size: 24))
             }
-            TextField("", text: $passwordSignUp, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center)
+            TextField("", text: $passwordSignUp, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center).accessibilityIdentifier("pass1")
         }
     }
 }
@@ -154,7 +154,7 @@ struct CustomTextFieldRePasswordSignUp:View {
             if repasswordSignUp.isEmpty{
                 placeholder.foregroundColor(Color("gr")).font(.custom("ND Astroneer", size: 24))
             }
-            TextField("", text: $repasswordSignUp, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center)
+            TextField("", text: $repasswordSignUp, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center).accessibilityIdentifier("repass")
         }
     }
 }
@@ -168,7 +168,7 @@ struct CustomTextFieldemailSignUp:View {
             if emailSignUp.isEmpty{
                 placeholder.foregroundColor(Color("gr")).font(.custom("ND Astroneer", size: 24))
             }
-            TextField("", text: $emailSignUp, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center)
+            TextField("", text: $emailSignUp, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center).accessibilityIdentifier("email")
         }
     }
 }

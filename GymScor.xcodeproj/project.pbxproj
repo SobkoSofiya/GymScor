@@ -12,7 +12,6 @@
 		C36B6D0C25F8A7F10040C648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D0B25F8A7F10040C648 /* Assets.xcassets */; };
 		C36B6D0F25F8A7F10040C648 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D0E25F8A7F10040C648 /* Preview Assets.xcassets */; };
 		C36B6D1225F8A7F10040C648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D1025F8A7F10040C648 /* LaunchScreen.storyboard */; };
-		C36B6D1D25F8A7F10040C648 /* GymScorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D1C25F8A7F10040C648 /* GymScorTests.swift */; };
 		C36B6D2825F8A7F10040C648 /* GymScorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D2725F8A7F10040C648 /* GymScorUITests.swift */; };
 		C36B6D3925F8AB7C0040C648 /* ND Astroneer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D3825F8AB7C0040C648 /* ND Astroneer.ttf */; };
 		C36B6D3E25F8AC3A0040C648 /* StepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D3D25F8AC3A0040C648 /* StepOne.swift */; };
@@ -29,6 +28,7 @@
 		C36B6D8825F8BE970040C648 /* ModelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D8725F8BE970040C648 /* ModelView.swift */; };
 		C36B6D8D25F8C1C60040C648 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D8C25F8C1C60040C648 /* SignUp.swift */; };
 		C36B6D9225F8C4110040C648 /* Back.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D9125F8C4110040C648 /* Back.swift */; };
+		C36B6DB425F8CEDA0040C648 /* GymScorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D1C25F8A7F10040C648 /* GymScorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,7 +133,6 @@
 				C36B6D9925F8C59C0040C648 /* ViewModel */,
 				C36B6DA125F8C5D70040C648 /* View */,
 				C36B6D6825F8BD130040C648 /* Group */,
-				C36B6D0D25F8A7F10040C648 /* Preview Content */,
 			);
 			path = GymScor;
 			sourceTree = "<group>";
@@ -141,6 +140,7 @@
 		C36B6D0D25F8A7F10040C648 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				C36B6D1C25F8A7F10040C648 /* GymScorTests.swift */,
 				C36B6D0E25F8A7F10040C648 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -149,7 +149,7 @@
 		C36B6D1B25F8A7F10040C648 /* GymScorTests */ = {
 			isa = PBXGroup;
 			children = (
-				C36B6D1C25F8A7F10040C648 /* GymScorTests.swift */,
+				C36B6D0D25F8A7F10040C648 /* Preview Content */,
 				C36B6D1E25F8A7F10040C648 /* Info.plist */,
 			);
 			path = GymScorTests;
@@ -356,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C36B6D4325F8AC460040C648 /* StepTwo.swift in Sources */,
+				C36B6DB425F8CEDA0040C648 /* GymScorTests.swift in Sources */,
 				C36B6D5225F8AC670040C648 /* StepFour.swift in Sources */,
 				C36B6D0625F8A7F00040C648 /* AppDelegate.swift in Sources */,
 				C36B6D5725F8AC6F0040C648 /* StepFive.swift in Sources */,
@@ -376,7 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C36B6D1D25F8A7F10040C648 /* GymScorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

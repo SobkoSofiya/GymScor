@@ -45,7 +45,7 @@ struct SignIn: View {
                     Button(action: {
                         if name != "" && password != "" {
                             model.signIn(password: password, name: name){ token, error in
-                                if token != "" || error == "Success"{
+                                if token != "" || error == "Success" && error != "Error username or password"{
                                     transition = 3
                                     UserDefaults.standard.set(name, forKey: "name")
                                 
@@ -111,7 +111,8 @@ struct CustomTextFieldName:View {
             if name.isEmpty{
                 placeholder.foregroundColor(Color("gr")).font(.custom("ND Astroneer", size: 24))
             }
-            TextField("", text: $name, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center)
+            TextField("", text: $name, onEditingChanged: edit, onCommit: commit).accessibilityIdentifier("name")
+                .frame(width: 250, height: 50, alignment: .center)
         }
     }
 }
@@ -127,7 +128,7 @@ struct CustomTextFieldPassword:View {
             if password.isEmpty{
                 placeholder.foregroundColor(Color("gr")).font(.custom("ND Astroneer", size: 18))
             }
-            TextField("", text: $password, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center)
+            TextField("", text: $password, onEditingChanged: edit, onCommit: commit).frame(width: 250, height: 50, alignment: .center).accessibilityIdentifier("pass")
         }
     }
 }
