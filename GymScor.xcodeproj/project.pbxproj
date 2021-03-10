@@ -15,6 +15,15 @@
 		C36B6D1225F8A7F10040C648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D1025F8A7F10040C648 /* LaunchScreen.storyboard */; };
 		C36B6D1D25F8A7F10040C648 /* GymScorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D1C25F8A7F10040C648 /* GymScorTests.swift */; };
 		C36B6D2825F8A7F10040C648 /* GymScorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D2725F8A7F10040C648 /* GymScorUITests.swift */; };
+		C36B6D3925F8AB7C0040C648 /* ND Astroneer.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C36B6D3825F8AB7C0040C648 /* ND Astroneer.ttf */; };
+		C36B6D3E25F8AC3A0040C648 /* StepOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D3D25F8AC3A0040C648 /* StepOne.swift */; };
+		C36B6D4325F8AC460040C648 /* StepTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D4225F8AC460040C648 /* StepTwo.swift */; };
+		C36B6D4825F8AC4D0040C648 /* StepThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D4725F8AC4D0040C648 /* StepThree.swift */; };
+		C36B6D4D25F8AC600040C648 /* StepThreeWomen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D4C25F8AC600040C648 /* StepThreeWomen.swift */; };
+		C36B6D5225F8AC670040C648 /* StepFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D5125F8AC670040C648 /* StepFour.swift */; };
+		C36B6D5725F8AC6F0040C648 /* StepFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D5625F8AC6F0040C648 /* StepFive.swift */; };
+		C36B6D5C25F8AC750040C648 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D5B25F8AC750040C648 /* SignIn.swift */; };
+		C36B6D6125F8AC970040C648 /* Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6D6025F8AC970040C648 /* Transition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,15 @@
 		C36B6D2325F8A7F10040C648 /* GymScorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GymScorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C36B6D2725F8A7F10040C648 /* GymScorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymScorUITests.swift; sourceTree = "<group>"; };
 		C36B6D2925F8A7F10040C648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C36B6D3825F8AB7C0040C648 /* ND Astroneer.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ND Astroneer.ttf"; sourceTree = "<group>"; };
+		C36B6D3D25F8AC3A0040C648 /* StepOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepOne.swift; sourceTree = "<group>"; };
+		C36B6D4225F8AC460040C648 /* StepTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepTwo.swift; sourceTree = "<group>"; };
+		C36B6D4725F8AC4D0040C648 /* StepThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepThree.swift; sourceTree = "<group>"; };
+		C36B6D4C25F8AC600040C648 /* StepThreeWomen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepThreeWomen.swift; sourceTree = "<group>"; };
+		C36B6D5125F8AC670040C648 /* StepFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepFour.swift; sourceTree = "<group>"; };
+		C36B6D5625F8AC6F0040C648 /* StepFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepFive.swift; sourceTree = "<group>"; };
+		C36B6D5B25F8AC750040C648 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		C36B6D6025F8AC970040C648 /* Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +97,7 @@
 		C36B6CF925F8A7F00040C648 = {
 			isa = PBXGroup;
 			children = (
+				C36B6D3825F8AB7C0040C648 /* ND Astroneer.ttf */,
 				C36B6D0425F8A7F00040C648 /* GymScor */,
 				C36B6D1B25F8A7F10040C648 /* GymScorTests */,
 				C36B6D2625F8A7F10040C648 /* GymScorUITests */,
@@ -102,6 +121,14 @@
 				C36B6D0525F8A7F00040C648 /* AppDelegate.swift */,
 				C36B6D0725F8A7F00040C648 /* SceneDelegate.swift */,
 				C36B6D0925F8A7F00040C648 /* ContentView.swift */,
+				C36B6D6025F8AC970040C648 /* Transition.swift */,
+				C36B6D3D25F8AC3A0040C648 /* StepOne.swift */,
+				C36B6D4225F8AC460040C648 /* StepTwo.swift */,
+				C36B6D4725F8AC4D0040C648 /* StepThree.swift */,
+				C36B6D4C25F8AC600040C648 /* StepThreeWomen.swift */,
+				C36B6D5125F8AC670040C648 /* StepFour.swift */,
+				C36B6D5625F8AC6F0040C648 /* StepFive.swift */,
+				C36B6D5B25F8AC750040C648 /* SignIn.swift */,
 				C36B6D0B25F8A7F10040C648 /* Assets.xcassets */,
 				C36B6D1025F8A7F10040C648 /* LaunchScreen.storyboard */,
 				C36B6D1325F8A7F10040C648 /* Info.plist */,
@@ -240,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C36B6D1225F8A7F10040C648 /* LaunchScreen.storyboard in Resources */,
+				C36B6D3925F8AB7C0040C648 /* ND Astroneer.ttf in Resources */,
 				C36B6D0F25F8A7F10040C648 /* Preview Assets.xcassets in Resources */,
 				C36B6D0C25F8A7F10040C648 /* Assets.xcassets in Resources */,
 			);
@@ -266,8 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36B6D4325F8AC460040C648 /* StepTwo.swift in Sources */,
+				C36B6D5225F8AC670040C648 /* StepFour.swift in Sources */,
 				C36B6D0625F8A7F00040C648 /* AppDelegate.swift in Sources */,
+				C36B6D5725F8AC6F0040C648 /* StepFive.swift in Sources */,
+				C36B6D4825F8AC4D0040C648 /* StepThree.swift in Sources */,
+				C36B6D6125F8AC970040C648 /* Transition.swift in Sources */,
+				C36B6D4D25F8AC600040C648 /* StepThreeWomen.swift in Sources */,
 				C36B6D0825F8A7F00040C648 /* SceneDelegate.swift in Sources */,
+				C36B6D5C25F8AC750040C648 /* SignIn.swift in Sources */,
+				C36B6D3E25F8AC3A0040C648 /* StepOne.swift in Sources */,
 				C36B6D0A25F8A7F00040C648 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
