@@ -21,10 +21,14 @@ struct BottomMenu: View {
                 Image("e")
                 Text("Lessons").foregroundColor(.white).font(.custom("ND Astroneer", size: 24))
             } }.tag(2)
+            Reports().tabItem { VStack{
+                Image("re")
+                Text("Reports").foregroundColor(.white).font(.custom("ND Astroneer", size: 24))
+            } }.tag(3)
             Profile(transition: $transition).tabItem { VStack{
                 Image("p")
                 Text("Profile").foregroundColor(.white).font(.custom("ND Astroneer", size: 24))
-            } }.tag(2)
+            } }.tag(4)
         }
         }.edgesIgnoringSafeArea(.all)
     }
@@ -35,3 +39,12 @@ struct BottomMenu: View {
 //        BottomMenu()
 //    }
 //}
+
+
+struct Reports:View {
+    var body: some View{
+        ZStack{
+            Color.white
+        }
+    }
+}
