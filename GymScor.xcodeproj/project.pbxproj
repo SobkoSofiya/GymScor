@@ -36,6 +36,14 @@
 		C36B6DD825F8D7830040C648 /* Lessons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6DD725F8D7830040C648 /* Lessons.swift */; };
 		C36B6DE725F8DD3F0040C648 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6DE625F8DD3F0040C648 /* Profile.swift */; };
 		C36B6DEC25F8E0ED0040C648 /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6DEB25F8E0ED0040C648 /* Web.swift */; };
+		C36B6E0325F8F1DE0040C648 /* orig.gif in Resources */ = {isa = PBXBuildFile; fileRef = C36B6E0125F8F1DE0040C648 /* orig.gif */; };
+		C36B6E0425F8F1DE0040C648 /* otzimania.gif in Resources */ = {isa = PBXBuildFile; fileRef = C36B6E0225F8F1DE0040C648 /* otzimania.gif */; };
+		C36B6E1525F8F20F0040C648 /* PushUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36B6E1425F8F20F0040C648 /* PushUp.swift */; };
+		C36DD03825F9F02E004E6B83 /* PushUpTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36DD03725F9F02E004E6B83 /* PushUpTwo.swift */; };
+		C36DD03D25F9F03B004E6B83 /* PushUpSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36DD03C25F9F03B004E6B83 /* PushUpSuccess.swift */; };
+		C36DD04225F9F048004E6B83 /* Torso.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36DD04125F9F048004E6B83 /* Torso.swift */; };
+		C36DD04725F9F05F004E6B83 /* TorsoTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36DD04625F9F05F004E6B83 /* TorsoTwo.swift */; };
+		C36DD04C25F9F066004E6B83 /* TorsoSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36DD04B25F9F066004E6B83 /* TorsoSuccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +99,14 @@
 		C36B6DD725F8D7830040C648 /* Lessons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lessons.swift; sourceTree = "<group>"; };
 		C36B6DE625F8DD3F0040C648 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		C36B6DEB25F8E0ED0040C648 /* Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web.swift; sourceTree = "<group>"; };
+		C36B6E0125F8F1DE0040C648 /* orig.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = orig.gif; sourceTree = "<group>"; };
+		C36B6E0225F8F1DE0040C648 /* otzimania.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = otzimania.gif; sourceTree = "<group>"; };
+		C36B6E1425F8F20F0040C648 /* PushUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUp.swift; sourceTree = "<group>"; };
+		C36DD03725F9F02E004E6B83 /* PushUpTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpTwo.swift; sourceTree = "<group>"; };
+		C36DD03C25F9F03B004E6B83 /* PushUpSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpSuccess.swift; sourceTree = "<group>"; };
+		C36DD04125F9F048004E6B83 /* Torso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torso.swift; sourceTree = "<group>"; };
+		C36DD04625F9F05F004E6B83 /* TorsoTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorsoTwo.swift; sourceTree = "<group>"; };
+		C36DD04B25F9F066004E6B83 /* TorsoSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorsoSuccess.swift; sourceTree = "<group>"; };
 		D9C11A72EA076264FDE25EAF /* Pods_GymScor_GymScorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymScor_GymScorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0B2E9196070A9C6E4471D13 /* Pods_GymScor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymScor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F268F0BA3A1F4E57DBCBC84F /* Pods-GymScorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymScorTests.debug.xcconfig"; path = "Target Support Files/Pods-GymScorTests/Pods-GymScorTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -152,7 +168,6 @@
 		C36B6CF925F8A7F00040C648 = {
 			isa = PBXGroup;
 			children = (
-				C36B6D3825F8AB7C0040C648 /* ND Astroneer.ttf */,
 				C36B6D0425F8A7F00040C648 /* GymScor */,
 				C36B6D2625F8A7F10040C648 /* GymScorUITests */,
 				C36B6D0325F8A7F00040C648 /* Products */,
@@ -217,6 +232,9 @@
 				C36B6D0B25F8A7F10040C648 /* Assets.xcassets */,
 				C36B6D1025F8A7F10040C648 /* LaunchScreen.storyboard */,
 				C36B6D1325F8A7F10040C648 /* Info.plist */,
+				C36B6E0225F8F1DE0040C648 /* otzimania.gif */,
+				C36B6E0125F8F1DE0040C648 /* orig.gif */,
+				C36B6D3825F8AB7C0040C648 /* ND Astroneer.ttf */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -253,6 +271,12 @@
 				C36B6DD725F8D7830040C648 /* Lessons.swift */,
 				C36B6DE625F8DD3F0040C648 /* Profile.swift */,
 				C36B6DEB25F8E0ED0040C648 /* Web.swift */,
+				C36B6E1425F8F20F0040C648 /* PushUp.swift */,
+				C36DD03725F9F02E004E6B83 /* PushUpTwo.swift */,
+				C36DD03C25F9F03B004E6B83 /* PushUpSuccess.swift */,
+				C36DD04125F9F048004E6B83 /* Torso.swift */,
+				C36DD04625F9F05F004E6B83 /* TorsoTwo.swift */,
+				C36DD04B25F9F066004E6B83 /* TorsoSuccess.swift */,
 				C36B6D9125F8C4110040C648 /* Back.swift */,
 			);
 			path = View;
@@ -376,8 +400,10 @@
 			files = (
 				C36B6D1225F8A7F10040C648 /* LaunchScreen.storyboard in Resources */,
 				C36B6D3925F8AB7C0040C648 /* ND Astroneer.ttf in Resources */,
+				C36B6E0325F8F1DE0040C648 /* orig.gif in Resources */,
 				C36B6D0F25F8A7F10040C648 /* Preview Assets.xcassets in Resources */,
 				C36B6D0C25F8A7F10040C648 /* Assets.xcassets in Resources */,
+				C36B6E0425F8F1DE0040C648 /* otzimania.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,20 +531,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C36B6E1525F8F20F0040C648 /* PushUp.swift in Sources */,
 				C36B6DC825F8D4930040C648 /* Main.swift in Sources */,
+				C36DD04225F9F048004E6B83 /* Torso.swift in Sources */,
 				C36B6D4325F8AC460040C648 /* StepTwo.swift in Sources */,
 				C36B6DEC25F8E0ED0040C648 /* Web.swift in Sources */,
+				C36DD03D25F9F03B004E6B83 /* PushUpSuccess.swift in Sources */,
 				C36B6D5225F8AC670040C648 /* StepFour.swift in Sources */,
 				C36B6D0625F8A7F00040C648 /* AppDelegate.swift in Sources */,
 				C36B6D5725F8AC6F0040C648 /* StepFive.swift in Sources */,
 				C36B6DD025F8D6900040C648 /* BottomMenu.swift in Sources */,
 				C36B6D4825F8AC4D0040C648 /* StepThree.swift in Sources */,
 				C36B6DE725F8DD3F0040C648 /* Profile.swift in Sources */,
+				C36DD03825F9F02E004E6B83 /* PushUpTwo.swift in Sources */,
 				C36B6D6125F8AC970040C648 /* Transition.swift in Sources */,
+				C36DD04C25F9F066004E6B83 /* TorsoSuccess.swift in Sources */,
 				C36B6D8825F8BE970040C648 /* ModelView.swift in Sources */,
 				C36B6D4D25F8AC600040C648 /* StepThreeWomen.swift in Sources */,
 				C36B6D0825F8A7F00040C648 /* SceneDelegate.swift in Sources */,
 				C36B6DD825F8D7830040C648 /* Lessons.swift in Sources */,
+				C36DD04725F9F05F004E6B83 /* TorsoTwo.swift in Sources */,
 				C36B6D8325F8BE630040C648 /* Model.swift in Sources */,
 				C36B6D5C25F8AC750040C648 /* SignIn.swift in Sources */,
 				C36B6D8D25F8C1C60040C648 /* SignUp.swift in Sources */,

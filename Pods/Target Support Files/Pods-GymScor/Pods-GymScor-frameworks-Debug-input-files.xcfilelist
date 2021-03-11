@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-GymScor/Pods-GymScor-frameworks.sh
+${BUILT_PRODUCTS_DIR}/SSSwiftUIGIFView/SSSwiftUIGIFView.framework
 ${BUILT_PRODUCTS_DIR}/YouTubePlayer/YouTubePlayer.framework

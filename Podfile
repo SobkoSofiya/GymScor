@@ -7,7 +7,7 @@ target 'GymScor' do
 
   # Pods for GymScor
 
-
+	pod'SSSwiftUIGIFView'
 	pod 'YouTubePlayer'
 
   target 'GymScorTests' do

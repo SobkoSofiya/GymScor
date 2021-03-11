@@ -10,10 +10,11 @@ import SwiftUI
 struct BottomMenu: View {
     @Binding var transition:Int
     @State var selection  = 1
+//    @Binding var transitionTren:Int
     var body: some View {
         ZStack{
         TabView(selection:$selection){
-            Main().tabItem { VStack{
+           TransitionTren().tabItem { VStack{
                 Image("pl")
                 Text("Plan").foregroundColor(.white).font(.custom("ND Astroneer", size: 24))
             } }.tag(1)

@@ -18,7 +18,7 @@ struct Profile: View {
     @State var height = ""
     @State var heightUserDefaults = UserDefaults.standard.string(forKey: "height")
     @State var weightUserDefaults = UserDefaults.standard.string(forKey: "weight")
-    
+    @State var toggleUserDefaults = UserDefaults.standard.bool(forKey: "toggle")
     var body: some View {
         ZStack{
             Rectangle()
@@ -45,6 +45,7 @@ struct Profile: View {
                 }
                 ZStack{
                     Color.white
+                    VStack{
                     List{
                         ForEach(list, id:\.self){ i in
                             Button(action: {
@@ -71,15 +72,38 @@ struct Profile: View {
                                         if i == "Notifications"{
                                             Toggle(isOn: $toggle){
                                                 
-                                            }.toggleStyle(ToggleCustom())
+                                            }.toggleStyle(ToggleCustom()).onChange(of: toggle, perform: { value in
+                                               
+                                                ActionToggle()
+                                                UserDefaults.standard.set(toggle, forKey: "toggle")
+                                            })
                                         }
                                     }
 //                                    Divider()
 //                                        .frame(width: UIScreen.main.bounds.width, height: 1, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                                    
                                 }
                             })
                         }
                     }
+                        
+                    }
+                    VStack{
+                    Button(action: {
+                      
+                        model.signOut(name: name!)
+                    }, label: {
+                        ZStack{
+                      
+                            RoundedRectangle(cornerRadius: 23.0).strokeBorder(Color("te") ).frame(width: 340, height: 45, alignment: .center)
+                                .foregroundColor(.clear)
+                           
+                            Text("Sign Out").foregroundColor(Color("te")).font(.custom("ND Astroneer", size: 24))
+                        }
+                    }).padding(.top,200)
+                        Text("Design by Sergey Klimovich").foregroundColor(Color("te")).font(.custom("ND Astroneer", size: 17)).offset( y: 120)
+                        Text("Develop by Name Competitor").foregroundColor(Color("te")).font(.custom("ND Astroneer", size: 17)).offset( y: 120)
+                }
                 }
                 Spacer()
             }.offset( y: 60)
@@ -88,6 +112,8 @@ struct Profile: View {
             }
         }.edgesIgnoringSafeArea(.all).onAppear(perform: {
             model.GetProfile()
+            toggle = toggleUserDefaults
+            ActionToggle()
         })
         
     }
@@ -122,6 +148,30 @@ struct Profile: View {
             
         })
     }
+    func sent()  {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { (_, _) in
+            
+        }
+        let content = UNMutableNotificationContent()
+        content.title = "Внимание"
+        content.body = "Время заниматься"
+        
+        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 300, repeats: true)
+        
+        let req = UNNotificationRequest(identifier: "req", content: content, trigger: trigger)
+        UNUserNotificationCenter.current().add(req, withCompletionHandler: nil)
+        
+    }
+    func senf() {
+        UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ["req"])
+    }
+    func ActionToggle() {
+        if toggle{
+            sent()
+        } else{
+            senf()
+        }
+    }
     
 }
 
@@ -138,7 +188,7 @@ struct ToggleCustom:ToggleStyle {
         HStack{
             configuration.label
             ZStack(alignment: configuration.isOn ? .trailing : .leading){
-                RoundedRectangle(cornerRadius: 25).frame(width: 34, height: 14, alignment: .center).foregroundColor(Color("te").opacity(0.2))
+                RoundedRectangle(cornerRadius: 25).frame(width: 34, height: 14, alignment: .center).foregroundColor(Color("te").opacity(0.5))
                 Circle()
                     .frame(width: 20, height: 20, alignment: .center).foregroundColor(Color("te"))
                     .onTapGesture {

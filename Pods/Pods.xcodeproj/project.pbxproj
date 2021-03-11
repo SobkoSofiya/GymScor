@@ -7,38 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0979521AC87FB87402C78F6592B3FDCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0BFFDE5E815B10D9817886BB21DD43F9 /* Pods-GymScor-GymScorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C960C432ABA77D574EE026D55E4861F5 /* Pods-GymScor-GymScorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D3A4695617EC2DB30F442F718966D3E /* SSSwiftUIGIFView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E7473051C16001FCD68A481DC3234F /* SSSwiftUIGIFView-dummy.m */; };
+		2E6684CDD164D9D7960195544908BB82 /* Pods-GymScor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0977FEEE2479C0C18B7DA1D4CD6F262 /* Pods-GymScor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31C14CBB9CDC31AC42C378D6C47D70CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		3636121B7A416C4E686D17285A224DC7 /* Pods-GymScor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B1A5B83A2E17CC93050EB4853711F /* Pods-GymScor-dummy.m */; };
-		57ECEE382D5553AF07F05F47A0E11878 /* Pods-GymScor-GymScorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D326E406CC4D161B95B3CDB5A7BC069F /* Pods-GymScor-GymScorUITests-dummy.m */; };
-		5BB6FA83E8218EA409FBF5778FCD3AC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5A6C78FA38A09D9DD7D8A5B6B600C7E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5DCF1772D5BE77039C8D4250774D12FF /* SwiftUIGIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167183284100501EE1D0C9590AAABDD /* SwiftUIGIFPlayerView.swift */; };
+		5E381D53EDF81702B40BE3152E2CE3B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		60B2F65A6786847DFB76065C61321C49 /* Pods-GymScorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A4D9271A98AC8B9909FED7224FC9B2A /* Pods-GymScorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		698BA11C8774DEFE133D8C1400E0CAB3 /* Pods-GymScor-GymScorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C960C432ABA77D574EE026D55E4861F5 /* Pods-GymScor-GymScorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BD5F897603E8539A55A61398D39BDA7 /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7314B5F04F0C1502DF7BD4D1BDDD042B /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C765D2B09B115CBA745CA34C0BEDC39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9B55BD9201752AF7439D7F8BFBE31FF0 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A139EB99EE33105B6F4C75593B3EBE01 /* YouTubePlayer.swift */; };
-		C25B78F3F00AFB245C90F082734744FA /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F6EC00CB61A41F298A5DCB2E4CC1B8A3 /* YouTubePlayer-dummy.m */; };
-		D2D17D2C6670D5FBDF45EF72DC286BA3 /* Pods-GymScor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0977FEEE2479C0C18B7DA1D4CD6F262 /* Pods-GymScor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BD5F897603E8539A55A61398D39BDA7 /* YouTubePlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3685B0DEC9D3BED06555BCE0AA24639 /* YouTubePlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B55BD9201752AF7439D7F8BFBE31FF0 /* YouTubePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247CAD511E827ABE4B19F4E282CB5238 /* YouTubePlayer.swift */; };
+		C01CC6728DC8E5C545D7E19DF6D07F5B /* Pods-GymScor-GymScorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D326E406CC4D161B95B3CDB5A7BC069F /* Pods-GymScor-GymScorUITests-dummy.m */; };
+		C25B78F3F00AFB245C90F082734744FA /* YouTubePlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1A36070F0309C540EF198270701613 /* YouTubePlayer-dummy.m */; };
+		CB21642C93E23A9ACFA48609147A7E7C /* GIFPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CAA782ABF0E72D38458BCD651D3A22E /* GIFPlayerView.swift */; };
 		D767827BDC1944ADDDEE5F2CE30560B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		E9364E2D8EAB205C8D348410F403A0F6 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CC77AFF19C9AB7A30936794EFB9A048 /* YTPlayer.html */; };
+		E46AC7C2112C9BC14863BC85C85E919F /* Pods-GymScor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A63B1A5B83A2E17CC93050EB4853711F /* Pods-GymScor-dummy.m */; };
+		E9364E2D8EAB205C8D348410F403A0F6 /* YTPlayer.html in Resources */ = {isa = PBXBuildFile; fileRef = 67149159BEFE045A12D83503A799E2DF /* YTPlayer.html */; };
 		EF2A60E35473DB2D853B9800A91EED7E /* Pods-GymScorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A264DFE159524A70848BCFC044F9752 /* Pods-GymScorTests-dummy.m */; };
+		F535A18A7CE5D6D04E8F645F24C9956D /* SSSwiftUIGIFView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 579156BF514C90F6A33C2A060177FE49 /* SSSwiftUIGIFView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		37C0795F08A0ABAED6564AE151274FD9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 770D144DC411EE1D40BDAEA373ADDE7C;
-			remoteInfo = "Pods-GymScor";
-		};
-		77590299837101AC46F5A450041DD89D /* PBXContainerItemProxy */ = {
+		18562F9968D1B3B9F38F848E12B517E9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6273C43DC7FF94E93DBFF580DB584296;
 			remoteInfo = YouTubePlayer;
 		};
-		D73297BB2D2F3125D58A04EA54FB6CE4 /* PBXContainerItemProxy */ = {
+		3F0EDDE2987DF82C095CA009572168A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 770D144DC411EE1D40BDAEA373ADDE7C;
+			remoteInfo = "Pods-GymScor";
+		};
+		4762956F3E3FABA26CF6D0BFC4DA8011 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE69FE8AB101AD37628CA84F6EB71358;
+			remoteInfo = SSSwiftUIGIFView;
+		};
+		93B74C9911116A7F507EDBB77E3E9034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE69FE8AB101AD37628CA84F6EB71358;
+			remoteInfo = SSSwiftUIGIFView;
+		};
+		EAE40B475E91C0A3A442D0904615CD39 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -51,52 +70,62 @@
 		00B1F4562E3989603F73F515C0D161CD /* Pods-GymScor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GymScor.modulemap"; sourceTree = "<group>"; };
 		071C22162CDFDDCD92E9AB94725B3307 /* Pods-GymScor-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymScor-Info.plist"; sourceTree = "<group>"; };
 		103379078A14A4DDC2F1797E3ADF2CBB /* Pods-GymScor-GymScorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymScor-GymScorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		11E6478F1B9E80B0EAC61F022C5D33CC /* SSSwiftUIGIFView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSSwiftUIGIFView.release.xcconfig; sourceTree = "<group>"; };
 		16F7415CB04863A423EC8923B0509D3D /* Pods-GymScor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GymScor-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1A264DFE159524A70848BCFC044F9752 /* Pods-GymScorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GymScorTests-dummy.m"; sourceTree = "<group>"; };
 		1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YouTubePlayer.framework; path = YouTubePlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21BB95D78DB39F39E0C17A2A83CE5111 /* YouTubePlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YouTubePlayer-Info.plist"; sourceTree = "<group>"; };
 		2264B37D471E30C67D6CC81935839484 /* Pods-GymScor-GymScorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymScor-GymScorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		247CAD511E827ABE4B19F4E282CB5238 /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
 		341406138823771BF410EB42F5029444 /* Pods-GymScorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymScorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		35E1FF90545DABDB94FDDD718F8DF6C7 /* YouTubePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.release.xcconfig; sourceTree = "<group>"; };
 		3A2E420141E4ABD209F262F9B541114B /* Pods-GymScor-GymScorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GymScor-GymScorUITests.modulemap"; sourceTree = "<group>"; };
 		3A4D9271A98AC8B9909FED7224FC9B2A /* Pods-GymScorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GymScorTests-umbrella.h"; sourceTree = "<group>"; };
-		3CC77AFF19C9AB7A30936794EFB9A048 /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
-		417405ED51FD74D75A934DBB2F0AE43E /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
 		4911E18BA2B9E03866EB63BBD3AFDD5C /* Pods-GymScor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymScor.debug.xcconfig"; sourceTree = "<group>"; };
 		49739E52BEF8B37B4C53DB107BEB2DB9 /* Pods-GymScor-GymScorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GymScor-GymScorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		4B38790B837F16E99F4F1F9BAF1121E3 /* SSSwiftUIGIFView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SSSwiftUIGIFView-Info.plist"; sourceTree = "<group>"; };
+		51E1969C40B7E14CCD9F405AE5E88647 /* YouTubePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.debug.xcconfig; sourceTree = "<group>"; };
 		524A4DBCBE4587BE1E4269B0939651BD /* Pods-GymScorTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymScorTests-Info.plist"; sourceTree = "<group>"; };
+		579156BF514C90F6A33C2A060177FE49 /* SSSwiftUIGIFView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSSwiftUIGIFView-umbrella.h"; sourceTree = "<group>"; };
 		61672A405333BD3B7CEACAFEBB596325 /* Pods_GymScor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GymScor.framework; path = "Pods-GymScor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67149159BEFE045A12D83503A799E2DF /* YTPlayer.html */ = {isa = PBXFileReference; includeInIndex = 1; name = YTPlayer.html; path = YouTubePlayer/YouTubePlayer/YTPlayer.html; sourceTree = "<group>"; };
 		67DDACB912D04D5FE7812C49FDAF87D4 /* Pods-GymScor-GymScorUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymScor-GymScorUITests-Info.plist"; sourceTree = "<group>"; };
+		6A1A36070F0309C540EF198270701613 /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
 		6ABCBFDC8B8AE42EC8D34B42D9451B52 /* Pods-GymScorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GymScorTests.modulemap"; sourceTree = "<group>"; };
+		7167183284100501EE1D0C9590AAABDD /* SwiftUIGIFPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftUIGIFPlayerView.swift; path = Source/SwiftUIGIFPlayerView.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		7314B5F04F0C1502DF7BD4D1BDDD042B /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
-		8976B18286B0F26951A0EDD45557CC0D /* YouTubePlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YouTubePlayer-Info.plist"; sourceTree = "<group>"; };
+		7CAF01D4B5069417EC6EC72F9FB50E56 /* SSSwiftUIGIFView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSSwiftUIGIFView.debug.xcconfig; sourceTree = "<group>"; };
+		8A893D158D0E4E9D7CFBF9F7CB6171DD /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
 		943BA5743BB19C1ACF71E0B4D566DFB2 /* Pods-GymScor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GymScor-frameworks.sh"; sourceTree = "<group>"; };
 		94C29D40D30414D024A2EA6E9C8B1F72 /* Pods-GymScorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymScorTests.debug.xcconfig"; sourceTree = "<group>"; };
 		967557204D2DFD4689BD16D554A5D957 /* Pods-GymScor-GymScorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GymScor-GymScorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9783AED4E1E1715797120C7399390739 /* Pods_GymScor_GymScorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GymScor_GymScorUITests.framework; path = "Pods-GymScor-GymScorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		97E866EDD45116032E2E52BD2ED93256 /* YouTubePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.release.xcconfig; sourceTree = "<group>"; };
-		9D13C67F64A4427A26F121C96037D745 /* YouTubePlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-prefix.pch"; sourceTree = "<group>"; };
+		9CAA782ABF0E72D38458BCD651D3A22E /* GIFPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GIFPlayerView.swift; path = Source/GIFPlayerView.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A139EB99EE33105B6F4C75593B3EBE01 /* YouTubePlayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YouTubePlayer.swift; path = YouTubePlayer/YouTubePlayer/YouTubePlayer.swift; sourceTree = "<group>"; };
 		A63B1A5B83A2E17CC93050EB4853711F /* Pods-GymScor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GymScor-dummy.m"; sourceTree = "<group>"; };
 		A7DED087201100F78ECDCF3FA50F1DBC /* Pods-GymScorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GymScorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ACC3E27B5DA6B8E1128EFB568F91FEFA /* Pods_GymScorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GymScorTests.framework; path = "Pods-GymScorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C7A38B7C919C2E3880EC38EC6827CA /* Pods-GymScor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymScor.release.xcconfig"; sourceTree = "<group>"; };
 		C0977FEEE2479C0C18B7DA1D4CD6F262 /* Pods-GymScor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GymScor-umbrella.h"; sourceTree = "<group>"; };
-		C7719077D15D0E789A9C8B9FB3297065 /* YouTubePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YouTubePlayer.debug.xcconfig; sourceTree = "<group>"; };
+		C85CD8EA37380B793F5C2B135E7A560D /* SSSwiftUIGIFView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SSSwiftUIGIFView-prefix.pch"; sourceTree = "<group>"; };
 		C960C432ABA77D574EE026D55E4861F5 /* Pods-GymScor-GymScorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GymScor-GymScorUITests-umbrella.h"; sourceTree = "<group>"; };
 		D1B6A74FFB9F04C26CE7203C6798FC17 /* Pods-GymScor-GymScorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymScor-GymScorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D326E406CC4D161B95B3CDB5A7BC069F /* Pods-GymScor-GymScorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GymScor-GymScorUITests-dummy.m"; sourceTree = "<group>"; };
+		E2E7473051C16001FCD68A481DC3234F /* SSSwiftUIGIFView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SSSwiftUIGIFView-dummy.m"; sourceTree = "<group>"; };
+		E3685B0DEC9D3BED06555BCE0AA24639 /* YouTubePlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YouTubePlayer-umbrella.h"; sourceTree = "<group>"; };
 		E557FE15F1FB9E36704DC2A66628096D /* Pods-GymScor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GymScor-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA2AFF313F39080B41C665BC2EBC98EA /* YouTubePlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YouTubePlayer.modulemap; sourceTree = "<group>"; };
+		ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SSSwiftUIGIFView.framework; path = SSSwiftUIGIFView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F100AB85C2223F5D4CC5487024E56B2A /* Pods-GymScorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GymScorTests.release.xcconfig"; sourceTree = "<group>"; };
-		F6EC00CB61A41F298A5DCB2E4CC1B8A3 /* YouTubePlayer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YouTubePlayer-dummy.m"; sourceTree = "<group>"; };
+		FF0E95FCD9F3DF57E3EA98F161D889FA /* SSSwiftUIGIFView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSSwiftUIGIFView.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3927003B79997A07E352E58B04A5A4EF /* Frameworks */ = {
+		1E187A7C2B2CB42C859CA0AF5FD1CD32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BB6FA83E8218EA409FBF5778FCD3AC1 /* Foundation.framework in Frameworks */,
+				5A6C78FA38A09D9DD7D8A5B6B600C7E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,11 +137,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6CCC36638AABE4EA18040E379B0240A /* Frameworks */ = {
+		9F0FF69271E1FA5B7269F258992C7B97 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C765D2B09B115CBA745CA34C0BEDC39 /* Foundation.framework in Frameworks */,
+				5E381D53EDF81702B40BE3152E2CE3B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD1FAD981C5FA2343987D3165CDAE259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0979521AC87FB87402C78F6592B3FDCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,27 +164,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		135EC97747D7C121D6E04DE3A9CEE27A /* Support Files */ = {
+		1B5073830F68D33CB4146F00D8B2B080 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				417405ED51FD74D75A934DBB2F0AE43E /* YouTubePlayer.modulemap */,
-				F6EC00CB61A41F298A5DCB2E4CC1B8A3 /* YouTubePlayer-dummy.m */,
-				8976B18286B0F26951A0EDD45557CC0D /* YouTubePlayer-Info.plist */,
-				9D13C67F64A4427A26F121C96037D745 /* YouTubePlayer-prefix.pch */,
-				7314B5F04F0C1502DF7BD4D1BDDD042B /* YouTubePlayer-umbrella.h */,
-				C7719077D15D0E789A9C8B9FB3297065 /* YouTubePlayer.debug.xcconfig */,
-				97E866EDD45116032E2E52BD2ED93256 /* YouTubePlayer.release.xcconfig */,
+				FF0E95FCD9F3DF57E3EA98F161D889FA /* SSSwiftUIGIFView.modulemap */,
+				E2E7473051C16001FCD68A481DC3234F /* SSSwiftUIGIFView-dummy.m */,
+				4B38790B837F16E99F4F1F9BAF1121E3 /* SSSwiftUIGIFView-Info.plist */,
+				C85CD8EA37380B793F5C2B135E7A560D /* SSSwiftUIGIFView-prefix.pch */,
+				579156BF514C90F6A33C2A060177FE49 /* SSSwiftUIGIFView-umbrella.h */,
+				7CAF01D4B5069417EC6EC72F9FB50E56 /* SSSwiftUIGIFView.debug.xcconfig */,
+				11E6478F1B9E80B0EAC61F022C5D33CC /* SSSwiftUIGIFView.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/YouTubePlayer";
-			sourceTree = "<group>";
-		};
-		2B2A0367A301BD4FD0AB23A36A961B25 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C462D6A20EB5DAEE49170DACD1EA9EC6 /* YouTubePlayer */,
-			);
-			name = Pods;
+			path = "../Target Support Files/SSSwiftUIGIFView";
 			sourceTree = "<group>";
 		};
 		32DED5AC195B7A7C676AFCBA542976EF /* Pods-GymScorTests */ = {
@@ -166,12 +195,50 @@
 			path = "Target Support Files/Pods-GymScorTests";
 			sourceTree = "<group>";
 		};
+		4D17BA4C49005FE39EA1D59021C1A519 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA2AFF313F39080B41C665BC2EBC98EA /* YouTubePlayer.modulemap */,
+				6A1A36070F0309C540EF198270701613 /* YouTubePlayer-dummy.m */,
+				21BB95D78DB39F39E0C17A2A83CE5111 /* YouTubePlayer-Info.plist */,
+				8A893D158D0E4E9D7CFBF9F7CB6171DD /* YouTubePlayer-prefix.pch */,
+				E3685B0DEC9D3BED06555BCE0AA24639 /* YouTubePlayer-umbrella.h */,
+				51E1969C40B7E14CCD9F405AE5E88647 /* YouTubePlayer.debug.xcconfig */,
+				35E1FF90545DABDB94FDDD718F8DF6C7 /* YouTubePlayer.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YouTubePlayer";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		688129F454BD0CB46A035E0B9C39D183 /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				247CAD511E827ABE4B19F4E282CB5238 /* YouTubePlayer.swift */,
+				C81487784BCAB775D11C631314BC37D5 /* Resources */,
+				4D17BA4C49005FE39EA1D59021C1A519 /* Support Files */,
+			);
+			name = YouTubePlayer;
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		811888E7753553113F035AB9F1FF9335 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61672A405333BD3B7CEACAFEBB596325 /* Pods_GymScor.framework */,
+				9783AED4E1E1715797120C7399390739 /* Pods_GymScor_GymScorUITests.framework */,
+				ACC3E27B5DA6B8E1128EFB568F91FEFA /* Pods_GymScorTests.framework */,
+				ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView.framework */,
+				1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		8F1DCB54EA58CA5795034AFAFF565593 /* Pods-GymScor-GymScorUITests */ = {
@@ -208,15 +275,21 @@
 			path = "Target Support Files/Pods-GymScor";
 			sourceTree = "<group>";
 		};
-		C462D6A20EB5DAEE49170DACD1EA9EC6 /* YouTubePlayer */ = {
+		C81487784BCAB775D11C631314BC37D5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				A139EB99EE33105B6F4C75593B3EBE01 /* YouTubePlayer.swift */,
-				F5EE6FF0680A26088C8AE323BC047CD3 /* Resources */,
-				135EC97747D7C121D6E04DE3A9CEE27A /* Support Files */,
+				67149159BEFE045A12D83503A799E2DF /* YTPlayer.html */,
 			);
-			name = YouTubePlayer;
-			path = YouTubePlayer;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CCC36D18209B5042D72A3A3FBA451272 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E58BECC6AA9E83271897DA60CEA092A6 /* SSSwiftUIGIFView */,
+				688129F454BD0CB46A035E0B9C39D183 /* YouTubePlayer */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -224,8 +297,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				2B2A0367A301BD4FD0AB23A36A961B25 /* Pods */,
-				FB8B94D0489C89C867137436B1780F5F /* Products */,
+				CCC36D18209B5042D72A3A3FBA451272 /* Pods */,
+				811888E7753553113F035AB9F1FF9335 /* Products */,
 				EE0E4AA1E65C3C4546ABCAB39EC86366 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -238,6 +311,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E58BECC6AA9E83271897DA60CEA092A6 /* SSSwiftUIGIFView */ = {
+			isa = PBXGroup;
+			children = (
+				9CAA782ABF0E72D38458BCD651D3A22E /* GIFPlayerView.swift */,
+				7167183284100501EE1D0C9590AAABDD /* SwiftUIGIFPlayerView.swift */,
+				1B5073830F68D33CB4146F00D8B2B080 /* Support Files */,
+			);
+			name = SSSwiftUIGIFView;
+			path = SSSwiftUIGIFView;
+			sourceTree = "<group>";
+		};
 		EE0E4AA1E65C3C4546ABCAB39EC86366 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,33 +332,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F5EE6FF0680A26088C8AE323BC047CD3 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				3CC77AFF19C9AB7A30936794EFB9A048 /* YTPlayer.html */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		FB8B94D0489C89C867137436B1780F5F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				61672A405333BD3B7CEACAFEBB596325 /* Pods_GymScor.framework */,
-				9783AED4E1E1715797120C7399390739 /* Pods_GymScor_GymScorUITests.framework */,
-				ACC3E27B5DA6B8E1128EFB568F91FEFA /* Pods_GymScorTests.framework */,
-				1F11C9EDAF3E6BE69DD2D28341260193 /* YouTubePlayer.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0BD1927E3E4A3C93A88F127D0A63982A /* Headers */ = {
+		5698CD70AD5617B0D7AB9B0B6AADC8C1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2D17D2C6670D5FBDF45EF72DC286BA3 /* Pods-GymScor-umbrella.h in Headers */,
+				F535A18A7CE5D6D04E8F645F24C9956D /* SSSwiftUIGIFView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,19 +351,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69FED3D826B5EBA79920BCAC2C3C52A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFFDE5E815B10D9817886BB21DD43F9 /* Pods-GymScor-GymScorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C9534387AA734B8082EAE5318080D45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6684CDD164D9D7960195544908BB82 /* Pods-GymScor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5A99155285602D9AD356D3D76847E45 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6BD5F897603E8539A55A61398D39BDA7 /* YouTubePlayer-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CB69CACED5E4BCFDDD7CE684E1D0630F /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				698BA11C8774DEFE133D8C1400E0CAB3 /* Pods-GymScor-GymScorUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,17 +398,18 @@
 		};
 		770D144DC411EE1D40BDAEA373ADDE7C /* Pods-GymScor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1422A058DDA5AF1EE2628060AB41056E /* Build configuration list for PBXNativeTarget "Pods-GymScor" */;
+			buildConfigurationList = DC162E6BA906EDD045EB35F40593C334 /* Build configuration list for PBXNativeTarget "Pods-GymScor" */;
 			buildPhases = (
-				0BD1927E3E4A3C93A88F127D0A63982A /* Headers */,
-				6B44D2C6F91340259E4659024A3F8D5E /* Sources */,
-				B6CCC36638AABE4EA18040E379B0240A /* Frameworks */,
-				04ED6538F87D3F2E4BCA9E9EAE40D31A /* Resources */,
+				8C9534387AA734B8082EAE5318080D45 /* Headers */,
+				AC7391E114B14E782BBBACC57A0D9066 /* Sources */,
+				1E187A7C2B2CB42C859CA0AF5FD1CD32 /* Frameworks */,
+				994BFB4CA0502493A6F4D45CF54D6A1F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6FF959C1C48F5822888CFFCAC4C16502 /* PBXTargetDependency */,
+				FB9C94087F1D4A828CF24FD385BBB58A /* PBXTargetDependency */,
+				B6E4DDC820FF2831A06CBC373806F80F /* PBXTargetDependency */,
 			);
 			name = "Pods-GymScor";
 			productName = "Pods-GymScor";
@@ -354,26 +428,45 @@
 			buildRules = (
 			);
 			dependencies = (
-				E24BBB05832BCACBE3F7C05EC3B04E59 /* PBXTargetDependency */,
+				2A2EF92A7668E4F171BAB554EAB3C7C1 /* PBXTargetDependency */,
 			);
 			name = "Pods-GymScorTests";
 			productName = "Pods-GymScorTests";
 			productReference = ACC3E27B5DA6B8E1128EFB568F91FEFA /* Pods_GymScorTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DF5E439945EC1404472239FF15781A51 /* Pods-GymScor-GymScorUITests */ = {
+		BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EE602CBCB4285A56684546313484456 /* Build configuration list for PBXNativeTarget "Pods-GymScor-GymScorUITests" */;
+			buildConfigurationList = BDA4F477E2DEA8D5BE3A487FD754F383 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFView" */;
 			buildPhases = (
-				CB69CACED5E4BCFDDD7CE684E1D0630F /* Headers */,
-				827C00DB3426217EADF8FDCFD500CDD6 /* Sources */,
-				3927003B79997A07E352E58B04A5A4EF /* Frameworks */,
-				B059733E8FDF8DC0D5DE5FBEDED5E33C /* Resources */,
+				5698CD70AD5617B0D7AB9B0B6AADC8C1 /* Headers */,
+				90EADA3DAE1084BFD90388ED252C2467 /* Sources */,
+				9F0FF69271E1FA5B7269F258992C7B97 /* Frameworks */,
+				9579C5D5E8736FF19E2834DA83DB2AD4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A4505179B9320C390B55D11E68EFD9DA /* PBXTargetDependency */,
+			);
+			name = SSSwiftUIGIFView;
+			productName = SSSwiftUIGIFView;
+			productReference = ED51E9C639C8FFA6E92E6BECC847BA7D /* SSSwiftUIGIFView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF5E439945EC1404472239FF15781A51 /* Pods-GymScor-GymScorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 97A0E70C3562E9E770BA00CB1A2AED30 /* Build configuration list for PBXNativeTarget "Pods-GymScor-GymScorUITests" */;
+			buildPhases = (
+				69FED3D826B5EBA79920BCAC2C3C52A3 /* Headers */,
+				8B8EF36C805D8C42D88EF5975A8B2B5E /* Sources */,
+				BD1FAD981C5FA2343987D3165CDAE259 /* Frameworks */,
+				7C207C94F1D905909C9682EC7265F780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DF32389E56A4C11EFF33FF2EBED9B0B /* PBXTargetDependency */,
+				68AA33CF987201614DA9CBA404B8898F /* PBXTargetDependency */,
 			);
 			name = "Pods-GymScor-GymScorUITests";
 			productName = "Pods-GymScor-GymScorUITests";
@@ -398,26 +491,20 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FB8B94D0489C89C867137436B1780F5F /* Products */;
+			productRefGroup = 811888E7753553113F035AB9F1FF9335 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				770D144DC411EE1D40BDAEA373ADDE7C /* Pods-GymScor */,
 				DF5E439945EC1404472239FF15781A51 /* Pods-GymScor-GymScorUITests */,
 				95DFCB6953A6DCC2BD93C6437741B992 /* Pods-GymScorTests */,
+				BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */,
 				6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		04ED6538F87D3F2E4BCA9E9EAE40D31A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4717390B2169BC24284961E8BF8EA9CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -426,7 +513,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B059733E8FDF8DC0D5DE5FBEDED5E33C /* Resources */ = {
+		7C207C94F1D905909C9682EC7265F780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9579C5D5E8736FF19E2834DA83DB2AD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		994BFB4CA0502493A6F4D45CF54D6A1F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,119 +561,69 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B44D2C6F91340259E4659024A3F8D5E /* Sources */ = {
+		8B8EF36C805D8C42D88EF5975A8B2B5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3636121B7A416C4E686D17285A224DC7 /* Pods-GymScor-dummy.m in Sources */,
+				C01CC6728DC8E5C545D7E19DF6D07F5B /* Pods-GymScor-GymScorUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		827C00DB3426217EADF8FDCFD500CDD6 /* Sources */ = {
+		90EADA3DAE1084BFD90388ED252C2467 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57ECEE382D5553AF07F05F47A0E11878 /* Pods-GymScor-GymScorUITests-dummy.m in Sources */,
+				CB21642C93E23A9ACFA48609147A7E7C /* GIFPlayerView.swift in Sources */,
+				2D3A4695617EC2DB30F442F718966D3E /* SSSwiftUIGIFView-dummy.m in Sources */,
+				5DCF1772D5BE77039C8D4250774D12FF /* SwiftUIGIFPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC7391E114B14E782BBBACC57A0D9066 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46AC7C2112C9BC14863BC85C85E919F /* Pods-GymScor-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6FF959C1C48F5822888CFFCAC4C16502 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YouTubePlayer;
-			target = 6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */;
-			targetProxy = D73297BB2D2F3125D58A04EA54FB6CE4 /* PBXContainerItemProxy */;
-		};
-		A4505179B9320C390B55D11E68EFD9DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YouTubePlayer;
-			target = 6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */;
-			targetProxy = 77590299837101AC46F5A450041DD89D /* PBXContainerItemProxy */;
-		};
-		E24BBB05832BCACBE3F7C05EC3B04E59 /* PBXTargetDependency */ = {
+		2A2EF92A7668E4F171BAB554EAB3C7C1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GymScor";
 			target = 770D144DC411EE1D40BDAEA373ADDE7C /* Pods-GymScor */;
-			targetProxy = 37C0795F08A0ABAED6564AE151274FD9 /* PBXContainerItemProxy */;
+			targetProxy = 3F0EDDE2987DF82C095CA009572168A3 /* PBXContainerItemProxy */;
+		};
+		68AA33CF987201614DA9CBA404B8898F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = 6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */;
+			targetProxy = EAE40B475E91C0A3A442D0904615CD39 /* PBXContainerItemProxy */;
+		};
+		8DF32389E56A4C11EFF33FF2EBED9B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSSwiftUIGIFView;
+			target = BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */;
+			targetProxy = 4762956F3E3FABA26CF6D0BFC4DA8011 /* PBXContainerItemProxy */;
+		};
+		B6E4DDC820FF2831A06CBC373806F80F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YouTubePlayer;
+			target = 6273C43DC7FF94E93DBFF580DB584296 /* YouTubePlayer */;
+			targetProxy = 18562F9968D1B3B9F38F848E12B517E9 /* PBXContainerItemProxy */;
+		};
+		FB9C94087F1D4A828CF24FD385BBB58A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SSSwiftUIGIFView;
+			target = BE69FE8AB101AD37628CA84F6EB71358 /* SSSwiftUIGIFView */;
+			targetProxy = 93B74C9911116A7F507EDBB77E3E9034 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10A4DDF3F4B42177B0F80E9754FF4B38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1B6A74FFB9F04C26CE7203C6798FC17 /* Pods-GymScor-GymScorUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GymScor-GymScorUITests/Pods-GymScor-GymScorUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GymScor-GymScorUITests/Pods-GymScor-GymScorUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2DA697C2594DD860DAAADAF9B491F2EE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C7719077D15D0E789A9C8B9FB3297065 /* YouTubePlayer.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
-				PRODUCT_MODULE_NAME = YouTubePlayer;
-				PRODUCT_NAME = YouTubePlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		512C7DF616FBFF3B49E15905FEDA16CA /* Debug */ = {
+		03A746BDD448CCC9356DC1AACDC92213 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 103379078A14A4DDC2F1797E3ADF2CBB /* Pods-GymScor-GymScorUITests.debug.xcconfig */;
 			buildSettings = {
@@ -603,6 +654,75 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		161D9814DE54ABBED99FE51B5DBCC219 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CAF01D4B5069417EC6EC72F9FB50E56 /* SSSwiftUIGIFView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView.modulemap";
+				PRODUCT_MODULE_NAME = SSSwiftUIGIFView;
+				PRODUCT_NAME = SSSwiftUIGIFView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DA697C2594DD860DAAADAF9B491F2EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E1969C40B7E14CCD9F405AE5E88647 /* YouTubePlayer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YouTubePlayer/YouTubePlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/YouTubePlayer/YouTubePlayer.modulemap";
+				PRODUCT_MODULE_NAME = YouTubePlayer;
+				PRODUCT_NAME = YouTubePlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -746,6 +866,44 @@
 			};
 			name = Release;
 		};
+		72699F92F1A7ED16BF0B842FE9FF988A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1B6A74FFB9F04C26CE7203C6798FC17 /* Pods-GymScor-GymScorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GymScor-GymScorUITests/Pods-GymScor-GymScorUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GymScor-GymScorUITests/Pods-GymScor-GymScorUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -812,7 +970,7 @@
 			};
 			name = Debug;
 		};
-		D51B7AC4C35350A5F5FA19238D357BD9 /* Release */ = {
+		D7ACA1C38E93D6079D70CF45C510C5C8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5C7A38B7C919C2E3880EC38EC6827CA /* Pods-GymScor.release.xcconfig */;
 			buildSettings = {
@@ -852,7 +1010,7 @@
 		};
 		DC726072843D5D1CF386B9DFC0437ED1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 97E866EDD45116032E2E52BD2ED93256 /* YouTubePlayer.release.xcconfig */;
+			baseConfigurationReference = 35E1FF90545DABDB94FDDD718F8DF6C7 /* YouTubePlayer.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -885,7 +1043,7 @@
 			};
 			name = Release;
 		};
-		EDFC9BF08D5E691903ED0D79CF96E8B6 /* Debug */ = {
+		E88B1F0A48337DD96188E7C76653638D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4911E18BA2B9E03866EB63BBD3AFDD5C /* Pods-GymScor.debug.xcconfig */;
 			buildSettings = {
@@ -922,18 +1080,45 @@
 			};
 			name = Debug;
 		};
+		E93386B4AA63018DD1F23580DE1B8464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11E6478F1B9E80B0EAC61F022C5D33CC /* SSSwiftUIGIFView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SSSwiftUIGIFView/SSSwiftUIGIFView.modulemap";
+				PRODUCT_MODULE_NAME = SSSwiftUIGIFView;
+				PRODUCT_NAME = SSSwiftUIGIFView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1422A058DDA5AF1EE2628060AB41056E /* Build configuration list for PBXNativeTarget "Pods-GymScor" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EDFC9BF08D5E691903ED0D79CF96E8B6 /* Debug */,
-				D51B7AC4C35350A5F5FA19238D357BD9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -952,11 +1137,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EE602CBCB4285A56684546313484456 /* Build configuration list for PBXNativeTarget "Pods-GymScor-GymScorUITests" */ = {
+		97A0E70C3562E9E770BA00CB1A2AED30 /* Build configuration list for PBXNativeTarget "Pods-GymScor-GymScorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				512C7DF616FBFF3B49E15905FEDA16CA /* Debug */,
-				10A4DDF3F4B42177B0F80E9754FF4B38 /* Release */,
+				03A746BDD448CCC9356DC1AACDC92213 /* Debug */,
+				72699F92F1A7ED16BF0B842FE9FF988A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDA4F477E2DEA8D5BE3A487FD754F383 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161D9814DE54ABBED99FE51B5DBCC219 /* Debug */,
+				E93386B4AA63018DD1F23580DE1B8464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC162E6BA906EDD045EB35F40593C334 /* Build configuration list for PBXNativeTarget "Pods-GymScor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E88B1F0A48337DD96188E7C76653638D /* Debug */,
+				D7ACA1C38E93D6079D70CF45C510C5C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

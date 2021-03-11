@@ -1,16 +1,20 @@
 PODS:
+  - SSSwiftUIGIFView (1.0.0)
   - YouTubePlayer (0.7.2)
 
 DEPENDENCIES:
+  - SSSwiftUIGIFView
   - YouTubePlayer
 
 SPEC REPOS:
   trunk:
+    - SSSwiftUIGIFView
     - YouTubePlayer
 
 SPEC CHECKSUMS:
+  SSSwiftUIGIFView: f109262cd0baff190b58b519c0e94f7622c428d4
   YouTubePlayer: 2b5f2830d8f9b2cde942083211291e382c9e6bd5
 
-PODFILE CHECKSUM: 2d109dbc5a6c3c58b37a114c8e4ce72fca8bd784
+PODFILE CHECKSUM: 11a3b8c41609a7fe84bb8a7d8ca0edcfa76af039
 
 COCOAPODS: 1.10.1

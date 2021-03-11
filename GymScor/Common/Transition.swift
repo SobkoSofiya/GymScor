@@ -7,6 +7,33 @@
 
 import SwiftUI
 
+struct TransitionTren:View {
+  
+    @State var transitionTren  = 1
+    var body: some View{
+        if transitionTren == 1{
+            Main(transitionTren: $transitionTren)
+            
+        } else if transitionTren == 2{
+            PushUp( transitionTren: $transitionTren)
+        }else if transitionTren == 3{
+            PushUpTwo(transitionTren: $transitionTren)
+        }  else if transitionTren == 4{
+            TorsoSit(transitionTren: $transitionTren)
+        }else if transitionTren == 5{
+            TorsoTwo(transitionTren: $transitionTren)
+        }else if transitionTren == 6{
+            TorsoSuccess(transitionTren: $transitionTren)
+        }else if transitionTren == 7{
+            PushUpSuccess(transitionTren: $transitionTren)
+        }else if transitionTren == 8{
+            PushUpTwo(transitionTren: $transitionTren)
+        }else if transitionTren == 9{
+            PushUpTwo(transitionTren: $transitionTren)
+        }
+    }
+}
+
 struct Transition: View {
     @State var transition = 1
     @State var show = UserDefaults.standard.bool(forKey: "show")
